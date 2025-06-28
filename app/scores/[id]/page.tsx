@@ -44,7 +44,7 @@ export default function ScorePage({ params }: { params: { id: string } }) {
           <PageTransition>
             <div className="space-y-6 sm:space-y-8">
               <motion.h2
-                className={`text-lg font-medium italic${score.id === 'hands-1995' ? ' mb-4' : ''}`}
+                className="text-lg font-medium italic"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.1 }}
@@ -52,31 +52,16 @@ export default function ScorePage({ params }: { params: { id: string } }) {
                 {score.title}
               </motion.h2>
 
-              {score.id === 'hands-1995' ? (
-                <motion.div
-                  className="text-base sm:text-lg leading-relaxed font-serif space-y-2 mb-6"
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: 0.2 }}
-                >
-                  <div className="font-bold italic text-lg mb-2">Hands (1995, 4.5 minutes)</div>
-                  <div>Film maker: Adam Roberts</div>
-                  <div>Choreographer and performer: Jonathan Burrows</div>
-                  <div>Composer: Matteo Fargion</div>
-                  <div>Design: Teresa MacCann</div>
-                  <div>Lighting: Jack Hazan</div>
-                  <div className="mt-4 whitespace-pre-line text-sm sm:text-base font-normal">{score.content.replace(/Film maker:[\s\S]*Lighting: Jack Hazan\n?/, "").trim()}</div>
-                </motion.div>
-              ) : (
-                <motion.div
-                  className="text-sm sm:text-base leading-relaxed"
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: 0.2 }}
-                >
-                  <p>{score.content}</p>
-                </motion.div>
-              )}
+              <motion.div
+                className="text-sm sm:text-base leading-relaxed space-y-4"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.2 }}
+              >
+                {score.content.split("\n\n").map((paragraph, index) => (
+                  <p key={index} className="whitespace-pre-line">{paragraph}</p>
+                ))}
+              </motion.div>
 
               {/* PDF Link for full score */}
               {score.pdfUrl && (

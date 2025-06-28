@@ -7,11 +7,12 @@ export interface Interview {
 export const interviews: Interview[] = [
   {
     id: "catherine-long-2008",
-    title: "Catherine Long, 2008",
-    content: `Catherine Long: What was your ambition in making the film?
+    title: "Interview on Hands with Catherine Long for South East Dance, England, 2008",
+    content:
+`
+Catherine Long: What was your ambition in making the film?
 
 Jonathan Burrows: The idea behind Hands was to make a dance that you could only watch on a television. We came up with the image of a pair of life-size hands on the screen, which would dominate the corner of the room and be intriguing enough that you wouldn't change channels.
-
 My original thought was that the hands should be moving with the precision and speed of a pianist's hands. I asked the composer Matteo Fargion to write a piece of music, but instead of using notes he should use six hand gestures. I expected his hands to be a virtuosic blur of movement, but then he turned up with a kind of slow and plodding old man's hand dance. It became the first minute and a half of the film. After that I took over and doubled the speed.
 
 CL: What do you think was particularly successful?
@@ -24,12 +25,24 @@ JB: I'd let Matteo perform it, which he did originally.
 
 CL: What were the themes/ideas behind the work?
 
-JB: You never know what the real subject is until it's in front of an audience, all you can do is to be as true as possible to what's happening while you're making it. In this case the starting point was quite abstract, but it arrived at a very particular atmosphere and attitude which seems to put people in mind of the patience and stoicism of people who work with their hands. Then again this wasn't entirely a surprise because hands carry such strong marks of age and experience, we read them all the time without perhaps knowing it.`,
+JB: You never know what the real subject is until it's in front of an audience, all you can do is to be as true as possible to what's happening while you're making it. In this case the starting point was quite abstract, but it arrived at a very particular atmosphere and attitude which seems to put people in mind of the patience and stoicism of people who works with their hands. Then again this wasn't entirely a surprise because hands carry such strong marks of age and experience, we read them all the time without perhaps knowing it.
+
+CL: Describe the techniques you employed in making the film.
+
+JB: I made five minutes of choreography but then had to cut thirty seconds to allow for the credits. It seems absurd now but it took me hours to decide what to cut, so that the flow of the thing stayed strong. We shot it in one take, with me using a metronome to make sure I finished at the right moment. The lighting was by Jack Hazan, who lit the area of my lap with the care and complexity you would use in lighting a huge stage: every part of the knees and thighs had different shades of shadow and brilliance. Noel Balbirnie was focus puller, running to and fro with a tape measure and keeping up a stream of instructions to me so as to allow an easy shift of focus as the hands came forwards. The director Adam Roberts came up with the slow pan at the start, which we fought hard to try and persuade him to not to do, but which I now see is essential for setting up the patience of the viewer to sit and watch the hands. It takes away the distraction of wondering what else is in the room.
+
+CL: What was the production process?
+
+JB: Because we had no edits we decided to use the money to pay for 35mm film, which would have a special sparkle that might just help the viewer to stay attentive. The problem was the first shoot had a problem with the camera, and we had to use insurance to set up and re-shoot the whole thing one week later. It was heart breaking. But in the end the Arts Council and BBC were happy with the result, and it did get broadcast in several other countries which was probably fairly unusual for a dance film.
+Ever since then I've tried to think of another idea for how to make a television film, but I have too much expectation now. When wemade Hands it was a leap in the dark, taken with as much intelligence as we could muster, but also with a lot of naivety to try something new.
+
+© Jonathan Burrows and Catherine Long 2023`,
   },
+
   {
     id: "lawrence-dunn-2016",
     title: "Lawrence Dunn, 2016",
-    content: `Clocking in at maybe 200 minutes overall, with an enormous cast, this has got to be the most ambitious project you have both worked together on. Given that it's all split up into little bits maybe it doesn't feel like that, but considered as a single entity, one would have to look at least toward mid-century ballet to find something even slightly on this sort of scale. And yet, all these dances are being quietly released week-by-week onto the web. How did this project come about?
+    content: `Clocking in at maybe 200 minutes overall, with an enormous cast, this has got to be the most ambitious project you have both worked together on. Given that it's all split up into little bits maybe it doesn't feel like that, but considered as a single entity, one would have to look at least toward mid- century ballet to find something even slightly on this sort of scale. And yet, all these dances are being quietly released week-by-week onto the web. How did this project come about?
 
 I had been thinking for a long time about other ways dance might occupy the internet, other than music videos and short clips of spectacular dancing that you might see on Facebook. And the model for me was the year I spent on and off following Tim Etchell's daily political playbill series called Vacuum Days, which ran for the entirety of 2011. Matteo and I had had a two year experience of working with exploratory digital software, motion capture and so forth, as part of William Forsythe's Motionbank project in Frankfurt, so we had some idea of that place where art meets the digital, but what I liked about Tim's project was that it wasn't about things looking digital but rather about the obvious ways we all use software. So we decided to make a project which would take the short form of Facebook postings, but give it this accumulating quality, so it might transcend the usual instant and forgettable nature of dance clips on social media. And the choice to stage each portrait at a table, was made with the understanding that many people would watch them while sat at a table with their laptop, so the watcher sits opposite the performer, sharing a familiar technological situation.
 
@@ -87,12 +100,12 @@ As we are now more than halfway through these dances being released, is there an
 
 The only principle for curating the project was that it must be people whose work we love. But as the project has developed so it has become clear that it can never give room for everyone who should be there, and so we are looking at ways to make clear at the end that the list of 52 is in no way comprehensive and that it could go on. And we have already been asked would we do it again in another context, and our preferred model would be that the idea is put into the commons and anyone who wanted to make or subvert or do whatever they want with their own portraiture, would be welcome. And the list of 52 is in a sense deliberately random, shifting from known to quite unknown people, through obvious choices but with occasionally surprising choices. And the important thing for me is that everyone is equal under the roof of the project, so when I was asked could someone show just the portraits of older performers as part of another event, I said no, because to single out the older performers would be to make a judgement on their age, and for me there is a politics in the fact of ignoring all the usual hierarchies which stereotype or marginalise artists for whatever reason.
 
-An extra question, not sure about this one:
-Jennifer Walshe recently fingered you (rather cutely, in a footnote) in MusikTexte, where she was introducing the term 'New Discipline'— meaning a recent tendency toward incorporation of movement and the body and sociality and theatricality in an outwardly musical context. I'm not sure there's anything 'new' or indeed, 'disciplined' about the trend she's noticed (that might have been the point of her term), but anyway, did you have any thought on this? Do you think of what you're doing as expressly new or experimental or revisionist?
+An extra question, not sure about this one:Jennifer Walshe recently fingered you (rather cutely, in a footnote) in MusikTexte, where she was introducing the term 'New Discipline'— meaning a recent tendency toward incorporation of movement and the body and sociality and theatricality in an outwardly musical context.[1] I'm not sure there's anything 'new' or indeed, 'disciplined' about the trend she's noticed (that might have been the point of her term), but anyway, did you have any thought on this? Do you think of what you're doing as expressly new or experimental or revisionist?
 
 Well this is a nice article by Jennifer Walsh and it's very flattering to be mentioned in it, and I think she explains very clearly that her use of the term 'New Discipline' is pragmatic, so as to provoke a recognition of what's happening in terms of this current interest which composers have in performance. And of course this rekindled interest in the performing body is strongly present also in the visual arts. But for me it's what I've always done because I'm a dancer, and I guess the more necessary question I have is why there's been this sudden turn back towards the body, and I think we're all still trying to work that out. Meanwhile Matteo and I tend to be moving in the opposite direction, where we talk of what we do more and more as being music, in order to clarify our position within the continuing conceptual moment in dance. Because we somehow fit in with this conceptual moment, but in other ways we make decisions which disappoint, so we're at pains always to make clear we never promised to entirely fulfil the conceptual obligation, and the reason is that we're busy making music. It's rhetorical but it helps. It keeps our options open.
 
-© Jonathan Burrows and Lawrence Dunn, 2016`,
+© Jonathan Burrows and Lawrence Dunn, 2016
+`,
   },
   {
     id: "macarena-hernandez-2021",
@@ -117,25 +130,122 @@ The performance 'Let us stop this mad rush towards the end', which was shared on
 
 Two other things happened which helped shape the piece. The first is that I play English folk music, and my mentor the concertina player Will Duke had said one day that ornamentation in music was a way 'to stop the mad rush towards the end'. I loved this image of rhythmic detail as a way to enter and expand time, so I suggested the singer Francesca Fargion should chant this as a fixed loop over and over. At the same time we asked the orchestra to improvise whatever they wanted, while the dancer Claire Godsmark travelled this huge distance between them. It was complete luck really that it all fell together, and as the orchestra began to sing "Let us stop this mad rush towards the end', it was immediately obvious that the words conjured a sense of environmental urgency. It wasn't what we'd intended but it was there, and it was somehow very moving.
 
-© Jonathan Burrows and Macarena Hernandez 2021`,
+© Jonathan Burrows and Macarena Hernandez 2021
+`,
   },
+
   {
-    id: "marianna-hristodulu-2017",
-    title: "Marianna Hristodulu, 2017",
-    content:
-      "In this interview, Marianna Hristodulu discusses with Burrows and Fargion their approach to teaching and mentoring emerging artists. The conversation covers their workshop methodologies, their philosophy on artistic development, and how they balance their roles as performers and educators in the contemporary dance landscape.",
+    id: "wilson-le-personic-2022",
+    title: "Wilson Le Personic, 2022",
+    content: `Interview by Wilson Le Personic
+Posted on the MACULTURE website, February 28, 2022
+
+For more than twenty years, the British dancer and choreographer Jonathan Burrows and the Italian musician and composer Matteo Fargion have been developing a body of work at the crossroads of dance, music and performance. With great intellectual rigor, latent humor and a pleasure in creating together, they produce pieces that are both radical and artisanal. The two artists present their pieces Both Sitting Duet and Science Fiction as part of the Conversations Festival Angers, two duets created almost twenty years apart and which explore the same problem: how to translate dance into music, and music into dance. This joint interview with Jonathan Burrows and Matteo Fargion is an opportunity to address the reflections that circulate at the heart of their artistic approach.
+
+Jonathan, Matteo, you have worked together for over twenty years. How do your respective writings dialogue and circulate in your pair?
+
+Jonathan Burrows: We met over 20 years ago at a musical performance by Matteo. I remember I was ecstatic at the way the musical rhythm of his performance kept changing, sometimes in memory, sometimes in anticipation, and that's a quality that has remained in the work we have. developed together. At the beginning, we divided the work in a rather conventional way: I took care of the choreography and Matteo took care of the writing of the music. Then we decided to merge these roles and since then we have conceptualized, created, rehearsed, interpreted, all our work in an equitable way.
+
+Matteo Fargion: Much of my work is done collaboratively. Sharing responsibility for work makes creation less solitary. For 20 years, we have collaborated with Jonathan on an equal footing and we have developed clear strategies for dividing up the work. It is essential to trust each other's instincts and to be able to quickly let go of an idea that may seem wonderful to one person, but not necessarily to the other. Today, our common experience allows us to no longer need long discussions or negotiations. We have always looked for ways of collaborating that allow everyone to work alone, to initiate new ideas without the need for talks. Then we bring our material to the table and see what happens.
+
+How has this collaboration unbalanced your respective practices?
+
+Matteo: As a composer, I remember that I often got frustrated by the realization that the music did nothing but highlight the dance, the lights, the costumes, without anyone really paying attention. on the musical object, except when these different mediums enter into dissonance. Then Jonathan made me realize that different rules apply to music written for dance: it just has to be simpler, even dumber. If the composition is too dense or complex, the music becomes an unmanageable monster against which the movement cannot compete. Jonathan encouraged me to be less precious and less diligent. I would say that a third of our duets contain no music per se, sometimes there is no room for virtuosity and I am often the first to admit it.
+
+Jonathan: For my part, Matteo suggested to me many years ago that I study composition with his teacher, the composer Kevin Volans. We therefore share a common training, sensitivity and mentor. In this sense, I have therefore always considered my choreographic practice to be deeply linked to Matteo's musical practice.
+
+You are presenting your duo Both Sitting Duet, created in 2002, as part of the Conversations Festival. What does this piece represent in your career?
+
+Matteo: Both Sitting Duet was the first duet we created together. For me, this piece marks a new stage in our relationship and in our artistic research, and it was also the first time that I went on stage as a "dancer"! I had proposed to Jonathan to translate a piece of music into movement without really knowing what it was going to give. It wasn't a good idea, but it was a good enough start. Six months of hard work later, we had played it in Brussels and no one wanted to keep the show alive beyond this performance... But 20 years later, it has become a kind of essential piece that we have played more than 400 times! But for us, it always remains relevant with each performance and it evolves as time goes by.
+
+Could you tell us more about Both Sitting Duet ?
+
+Matteo: Both Sitting Duet is a gestural translation of For John Cage(1982) by Morton Feldman, an elegant and intimate 90-minute piece for violin and piano, bar for bar and note for note. During the creation process, we had never listened to the music but rather followed the written score and found movements that could keep the rhythm.
+
+Jonathan: At the time, we were working with a group of students from PARTS and we had offered to accompany us in this research. The first time we showed them the piece, we hadn't had time to memorize it and we played it with the scores in front of us. They then advised us to keep the scores in sight and not to learn them, like for a concert. And this is how this piece has been performed for 20 years! It is still very open and forces us to listen to each other and to the public watching us. When we go on stage, we try to remain porous to the space we share: if the public laughs, we laugh… if they remain silent, we remain silent.
+
+Both Sitting Duet is presented with Science Fiction , your new creation. What connections can we make between these two pieces?
+
+Matteo: These two pieces both involve a process of translating one discipline into another, music through dance in Both Sitting Duet and more or less dance through music in Science Fiction ; both carry the memory of a previous event, which makes it possible to anticipate a future: sometimes one can be right, but sometimes not, but in any case, there is great pleasure in this journey.
+
+Could you come back to the genesis of this new duo?
+
+Jonathan: We've always wanted to interpret a piece of music as a dance performance, but we never really found the way to do it. Then, during confinement, the constraint of isolation allowed us to go beyond our limits, as if this strange moment without the possibility of playing allowed us to revisit unfinished ideas that previously seemed impossible to implement. Our parts are often made up of the remnants of parts or processes that didn't work. So Science Fictionbegan with a silent march and a poem that became, after two years, an accumulative musical piece for synthesizers and percussion. But the march and the poem are always there, somewhere, buried in our bodies, when we play. Nothing is ever lost, and for us it is simply part of the continuity of a practice and a process.
+
+Matteo, what specific writing tools did you design to compose the music?
+
+Matteo: In our work, we have often used pre-determined empty structures, usually stolen from somewhere, in a completely different context, to organize our material. It's a fun and liberating way for us to work. For Science Fiction , I stuck quite rigidly to a mathematical sequence called Show and Tell, which grows exponentially with each iteration. On the other hand, I would not like the spectators to think that this information is important to understand what we are doing, this principle has just determined the composition of the piece: that is to say if Jonathan plays, if I play or if we play together. The track has 13 sections, which get longer, denser and more complex as it progresses.
+
+What do these two pieces say about the evolution of your work over the past 20 years?
+
+Jonathan: In a way, all of our duets are the same: most of them are half an hour long, handcrafted and devoid of theatrical devices. And once each piece is finished and we've played it for a while, the panic sets in: what can we do next? Is there unfinished work we could pick up? I guess we'll keep going the same way until we get bored or people completely lose interest in our experiences.
+
+© Jonathan Burrows, Matteo Fargion and Wilson Le Personic, 2022
+`,
   },
+
   {
-    id: "willow-la-persona-2021",
-    title: "Willow La Persona, 2021",
-    content:
-      "This recent interview with Willow La Persona examines how Burrows and Fargion's work has evolved during the pandemic period, discussing the challenges and opportunities presented by restricted performance conditions. The conversation explores themes of adaptation, resilience, and the future of live performance.",
-  },
-  {
-    id: "aafke-faasendonk-2023",
-    title: "Aafke Faasendonk, 2023",
-    content:
-      "In this latest interview, Aafke Faasendonk engages with Burrows and Fargion about their current projects and reflections on thirty years of collaboration. The discussion covers their artistic legacy, ongoing creative processes, and their perspective on the changing landscape of contemporary performance art.",
+    id: "ausra-kaminskaite-2023",
+    title: "Aušra Kaminskaitė, 2023",
+    content: `Aušra Kaminskaitė interview with Jonathan Burrows, May 2023
+
+AK What does it mean to break the rules as a choreographer today?
+
+JB For many years now the predominant rule within contemporary dance has been that each new generation and each new artist must propose an image of breaking the rules, but in reality of course this becomes impossible because in a field of rule breaking there are no rules to break.
+This hierarchy of innovation has ended up excluding many forms and people, because it fosters misunderstandings about what the nature of innovation might be. Contemporary dance has tended, for instance, to prioritise the idea of spontaneous movement as being the most authentic in the way it might challenge physical habits and oppressive regimes of training and so forth, but that approach ignores forms that are built upon the slow transmission and accumulation of specific styles and methodologies of movement that are held in common: for instance hip hop, flamenco, Indian classical dance, many forms of dance from different African countries and so forth. Contemporaneity has been denied to these forms because of a limited view of what it might mean to innovate.
+
+The compulsion to break what came before could be critiqued as a reflection of the capitalist drive to endlessly develop. It's not a very ecological standpoint. I'm much more interested now in how dancers might better honour the knowledge that has accumulated within their bodies, and not always be asked to reject it in favour of this fantasy of the new. Hip hop dance sets a precedent here, in the extraordinary way it constantly innovates, but at the same time respects, acknowledges and represents the lineage of the form.
+
+AK How to prepare a professional choreographer? What basic skills does a person need to become able gathering a lot of elements and creating an art piece?
+
+JB I'm really not sure what basic skills somebody would need in order to identify themself as a choreographer. All human beings have extraordinary ability to coordinate and remember complex movement, and all human beings have pleasure in mapping and ordering and disordering themselves in relation to the world they're moving through. It's usually an accident of getting interested in dancing that someone eventually starts to discover the satisfaction of choreographing, and then it goes from there. My experience is that it's not like it gets better or more fun or easier to do as you keep going, it's just a matter of deciding if it's what you want to be doing, and if it is then you try and make sense of it practically and artistically. The important thing is that all the skills you learn by dancing and choreographing are useful in all aspects of your life, and I wish dance schools would talk more about that, rather than being preoccupied with success.
+
+I think the biggest difficulty now is not how to make a piece, but more like how to make your work visible. There are so many dancers and choreographers creating so much work and I love that and am constantly surprised and delighted by what I see, but we're all struggling to catch each other's attention. In the past a performance might linger in the memory, but now it's up there online for a moment and then gets washed away within hours or days by a torrent of other stuff.
+
+There seems to be a slow shift at the moment, however, into a different mode of survival within contemporary dance, which understands with more confidence that the heart of what we do is about all the ways in which we practice our doing and talking and thinking together. Performances are still important, but they're perhaps less of a goal. This became more evident during the pandemic, when the culture machine stopped and for many of us there was a sense of absolute relief and a chance to reflect on what matters. It felt like the art form passed back into the hands of practitioners for a moment and we started to appreciate things about it that perhaps get overlooked or devalued by the market.
+
+AK Do you think a humour is something an artist can learn? Or is it a matter of personal character?
+
+JB The problem with humour in the art world is that it's often seen as less important or even less artistic than work that declares its seriousness. I completely understand that, but my perspective has always been that when people speak together there's a constant exchange of smiles and laughter even in the most serious of circumstances, which is born out of a combination of self- consciousness and the innate necessity of showing each other that no violence is intended. For me, therefore, it's very strange if my communication with an audience is marked by the refusal to smile. I don't like the hierarchy of that situation.
+People often laugh during the performances that I make with Matteo Fargion, but it's clear we're not doing comedy. The laughter is a response to empathetic memory and anticipation built by the rhythm of what we're doing, and the fact that we make it clear it's ok to relax and smile. Having said that, the main principle for our performances is 'How the audience sits is how we should sit', which means that as in any conversation, the decision to smile or laugh is triggered mutually and can't be forced by one person or the other.
+
+AK Remembering your own shows, I am curious, how well do you know these disciplines: maths, psychology and clowning?
+
+JB I would love to be good at mathematics, but as I've become older I've developed a kind of number dyslexia where I randomly swop numbers and find it difficult to calculate money in a shop. It seems clear then that the way Matteo and I use rhythm isn't mathematical. We do count things, but the counting is connected to a felt sense of the rhythm and the proportions of what we're doing, which is how most dance and music works.
+In terms of psychology I guess your question is related to the ways in which Matteo and I work with memory and anticipation, but I would describe these things as more to do with cognition than psychology, and I am very interested in that. For me the act of watching a dance performance encourages an experience of embodied thinking, which animates and makes present the ways in which we read the world through movement. This is connected to what the philosopher Alva Noë calls the 'enactive' approach, which understands perception as being premised upon sequenced movement through the world.
+
+As for clowning, I probably have a vestige of bad clowning left over from my years as a ballet dancer in comedic roles, but I've never had an interest in studying it and I think it's quite different from the humour in Matteo and I's performances. I suppose the nearest connection to clowning might be in our habit of not signalling the humour, which in the case of someone like Buster Keaton would be called 'deadpan'. I consciously try not to do it, but I see why somebody might think it.
+
+AK How do you perceive a concept of emptiness (in any form of your work)?
+
+JB I used to talk a lot about emptiness in performance, perhaps as a way to reposition what used to be called 'abstract' dance. Calling it 'emptiness' was a defence against the idea that it might be meaningless. Now, however, I've grown to love contemporary performance for the ways in which it often avoids singular meaning, and deals instead with webs of connection over time, which accumulate into a feeling that you take away with you from the theatre. I don't get that in quite the same way from any other art form.
+
+AK A lot of your and Matteo's works are minimalistic. This leads me to a thought that behind your choreography there is a huge knowledge which would be distracted by using too much (well known) techniques or tricks. However, it means that an audience must work to get to the point. As far as you've experienced, how deep does the audience usually get into your pieces? Or do they usually perceive them just as a pleasure (nothing negative here)?
+
+JB The work that Matteo and I make sometimes gets called minimal, maybe because we don't do visual theatre and because we use repetition to create rhythm. For me though, I've never really thought of it as minimal, but more like a music performance that focusses on time and presence rather than visual spectacle. The pieces are highly complex with many materials and usually performed at great speed, so they feel very rich from the inside.
+I think the other aspect of what we do that marks it as slightly different from many dance performances, is that we don't show an expressive body as a focus of meaning and emotion. I love dance which does that, but we've always enjoyed a slightly different approach. For us perhaps the ideal would be that the accumulation of rhythm and presence and memory and anticipation in our work, triggers physical and imaginative responses from the spectator which are in conversation with our own responses. This approach is not an aesthetic choice, it's just an accident of the fact that I come from the codified form of ballet and Matteo is a musician, so our way of working developed out of the meeting of those skills.
+
+The only way to get a sense whether our pieces communicate to audience members or not is by reactions from different audiences and individuals as we travel around performing. If something doesn't get a response then we keep working at it or in some cases just stop doing it. There's no guarantee of communication, but when it does happen then in that moment it seems worth continuing.
+
+The most interesting feedback we get from audiences is that over the years we've developed a habit of signalling to people at the end that they can come onstage and look at the scores, and nowadays this seems to happen whether we invite people or not. It's become the most important part of the performances really, where people feel comfortable enough to come down and look and talk together, in a way that allows the performance to resonate.
+
+AK The names of your shows have always been brilliant. In your opinion, how important is it to name a piece correctly (i.e. attractive)?
+
+JB Finding a title is an important step towards understanding the dramaturgy of a piece. It has to be absolutely obvious, but at the same time open enough to allow an imaginative response. We learned a lesson about obviousness when we made The Cow Piece in 2009, which initially had a strange complicated title that I can't even remember, and then everyone just called it The Cow Piece so we had to change it, and when we changed it the piece started to work.
+
+One of the most exciting moments I've experienced in a theatre was when Trisha Brown performed at the Sadler's Wells Theatre many years ago, and the stage manager walked on at the beginning and said, "Ladies and Gentlemen, Trisha Brown has asked me to notify you that she has changed the title of the first piece this evening, which will now be called 'For MG: The Movie'." There was a sense of being witness to the rebirth of something and it created a tremendous energy. I've no idea who 'MG' is, but I've never forgotten the title or the piece.
+
+AK I don't think there's a solid answer to my question, but maybe you could contemplate a bit on the ideas, how to resist the rules of market and still become well recognised (since it seems that you and Matteo have done that yourselves)?
+
+JB The main thing that informs Matteo and I's response to the marketplace is that I find it very hard to make a piece when I've already described it in a funding application or made promises to a promoter, so we've developed a way to try and avoid doing that. It means we've had to severely limit what we do in terms of scale, because our infrastructure is non-existent, but on the other hand it's helped us to keep going by giving us more freedom. For the past 20 years we've have no office or studio and we share everything including conception, creation, rehearsal and administration of the work. We've never had regular funding, but we do occasionally ask for small amounts of money towards research, so we can buy equipment or hire a studio. It's not the only way to work and it has its problems, but things are getting tough and there's something to be said for that kind of self-containment.
+The other thing that's shaped our approach to work is that we've both at times been primary carers for our children, so rehearsals at home made more sense and we've tended to avoid artistic residencies. I find also that when you're trying to create something it helps to be surrounded by your own life. There's nothing more bleak than trying to be imaginative in an empty hotel room.
+
+AK Do you consider yourself a dance-thinker?
+
+JB I've always identified myself as a choreographer, and choreography is a kind of thinking or questioning. I do a lot of writing also now for publications and talks, and as part of my work at the Centre for Dance Research Coventry University, and in many ways the writing has become another extension of this choreographic thinking and questioning. It's a quality about contemporary dance that I love.
+
+© Jonathan Burrows and Aušra Kaminskaitė, 2023
+`
   },
 ]
 
