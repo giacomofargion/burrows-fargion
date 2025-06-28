@@ -1,6 +1,7 @@
 "use client"
 
 import Navigation from "@/components/navigation"
+import PageHeader from "@/components/page-header"
 import PageTransition from "@/components/page-transition"
 import { motion } from "framer-motion"
 import { notFound } from "next/navigation"
@@ -37,18 +38,18 @@ export default function InterviewPage({ params }: { params: { id: string } }) {
       <Navigation />
 
       <div className="max-w-6xl mx-auto px-4">
-        <h1 className="text-xl sm:text-2xl font-light mb-6 sm:mb-8 text-center sm:text-left">Burrows&Fargion</h1>
+        <PageHeader />
 
         <div className="max-w-4xl mx-auto">
           <PageTransition>
             <div className="space-y-6">
               <motion.h2
-                className="text-base font-medium"
+                className="text-lg font-bold italic"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.3 }}
               >
-                {interview.title}
+                {interview.header}
               </motion.h2>
               <motion.div
                 className="text-sm leading-relaxed whitespace-pre-line"

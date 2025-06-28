@@ -60,11 +60,6 @@ export const imageFiles = [
     alt: "Any Table Any Room, Milan, photo by Gianluca di Ioia"
   },
   {
-    src: "/images/Burrows&Fargion workshop image.jpg",
-    credit: "Burrows & Fargion workshop",
-    alt: "Burrows & Fargion workshop"
-  },
-  {
     src: "/images/speaking-dance.jpg",
     credit: "Speaking Dance, Bologna, photo by Flavio Romualdo Garofano",
     alt: "Speaking Dance, Bologna, photo by Flavio Romualdo Garofano"

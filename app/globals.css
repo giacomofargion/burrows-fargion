@@ -86,8 +86,20 @@
   }
   body {
     @apply bg-background text-foreground;
-    font-family: "Arabic Typesetter", "Times New Roman", "Georgia", "Baskerville", serif;
-    font-weight: 400;
+    font-family: "arabictypesettingw23-re", -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size:30px;
     line-height: 1.5;
   }
+}
+
+@font-face {
+  font-family: 'arabictypesettingw23-re';
+  src: url('https://static.parastorage.com/fonts/v2/27d6c224-5d58-48be-93a5-00ec6d084489/v1/arabictypesettingw23-re.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.arabictypesettingw23-re {
+  font-family: 'arabictypesettingw23-re', -apple-system, BlinkMacSystemFont, sans-serif;
 }

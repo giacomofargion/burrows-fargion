@@ -4,6 +4,7 @@ import { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 // import { ChevronLeft, ChevronRight } from "lucide-react"
 import Navigation from "@/components/navigation"
+import PageHeader from "@/components/page-header"
 import PageTransition from "@/components/page-transition"
 import { imageFiles } from "@/data/images"
 
@@ -62,12 +63,12 @@ export default function HomePage() {
             transition={{ duration: 0.5, delay: 0.2 }}
           >
             {/* Static Header - No Animation */}
-            <h1 className="text-xl sm:text-2xl font-light text-black text-center sm:text-left">Burrows&Fargion</h1>
+            <PageHeader className="font-medium text-black" />
 
             <div className="space-y-8 sm:space-y-12">
               {/* Image Carousel */}
               <motion.div
-                className="w-full max-w-3xl mx-auto relative h-64 sm:h-80 lg:h-96 overflow-hidden rounded shadow-lg group"
+                className="w-full max-w-3xl mx-auto relative h-64 sm:h-80 lg:h-96 overflow-hidden  group"
                 initial={{ opacity: 0, scale: 0.95 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.7, delay: 0.6 }}
@@ -98,9 +99,11 @@ export default function HomePage() {
                       animate={{ opacity: 1 }}
                       exit={{ opacity: 0 }}
                       transition={{ duration: 0.2 }}
-                      className="absolute inset-0 bg-black bg-opacity-40 flex items-end justify-between p-4"
+                      className="absolute inset-0 bg-transparent bg-opacity-40 flex items-end justify-between p-4"
                     >
-                      <div className="text-white text-sm">{images[currentImageIndex].credit}</div>
+                      <div className="text-white text-sm bg-black bg-opacity-50 px-2 py-1 rounded">
+                        {images[currentImageIndex].credit}
+                      </div>
 
                     </motion.div>
                   )}

@@ -19,9 +19,24 @@ const config: Config = {
       },
     },
     extend: {
+      fontSize: {
+        xs: '20px',
+        sm: '22px',
+        base: '25px',
+        lg: '28px',
+        xl: '32px',
+        '2xl': '36px',
+        '3xl': '42px',
+        '4xl': '48px',
+        '5xl': '56px',
+        '6xl': '64px',
+        '7xl': '72px',
+        '8xl': '80px',
+        '9xl': '90px',
+      },
       fontFamily: {
-        sans: ["Arabic Typesetter", "Times New Roman", "Georgia", "Baskerville", "serif"],
-        serif: ["Arabic Typesetter", "Times New Roman", "Georgia", "Baskerville", "serif"],
+        sans: ["arabictypesettingw23-re", "-apple-system", "BlinkMacSystemFont", "sans-serif"],
+        serif: ["arabictypesettingw23-re", "-apple-system", "BlinkMacSystemFont", "sans-serif"],
       },
       colors: {
         border: "hsl(var(--border))",

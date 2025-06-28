@@ -1,6 +1,7 @@
 "use client"
 
 import Navigation from "@/components/navigation"
+import PageHeader from "@/components/page-header"
 import PageTransition from "@/components/page-transition"
 import { motion } from "framer-motion"
 
@@ -10,7 +11,7 @@ export default function DatesPage() {
       <Navigation />
 
       <div className="max-w-6xl mx-auto px-4">
-        <h1 className="text-xl sm:text-2xl font-light mb-6 sm:mb-8 text-center sm:text-left">Burrows&Fargion</h1>
+        <PageHeader />
 
         <div className="max-w-4xl mx-auto">
           <PageTransition>

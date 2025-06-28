@@ -2,9 +2,8 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
-  generator: 'v0.dev',
+  title: 'Burrows&Fargion',
+  description: 'Official website of choreographer Jonathan Burrows and composer Matteo Fargion.',
 }
 
 export default function RootLayout({
@@ -14,7 +13,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="arabictypesettingw23-re text-lg">{children}</body>
     </html>
   )
 }

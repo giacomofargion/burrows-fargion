@@ -1,6 +1,7 @@
 "use client"
 
 import Navigation from "@/components/navigation"
+import PageHeader from "@/components/page-header"
 import PageTransition from "@/components/page-transition"
 import { motion } from "framer-motion"
 // import { imageFiles } from "@/data/images"
@@ -11,7 +12,7 @@ export default function PublicationsPage() {
       <Navigation />
 
       <div className="max-w-6xl mx-auto px-4">
-        <h1 className="text-xl sm:text-2xl font-light mb-6 sm:mb-8 text-center sm:text-left">Burrows&Fargion</h1>
+        <PageHeader />
 
 
 
@@ -52,7 +53,7 @@ export default function PublicationsPage() {
                     <img
                       src="/images/writing-dance.jpg"
                       alt="Writing Dance book cover"
-                      className="w-32 h-32 sm:w-48 sm:h-48 object-cover shadow-lg"
+                      className="w-48 h-48 sm:w-64 sm:h-64 object-cover shadow-lg"
                     />
                   </motion.div>
                 </div>
@@ -89,7 +90,7 @@ export default function PublicationsPage() {
                     <img
                       src="/images/choreographer-handbook.jpg"
                       alt="A Choreographer's Handbook book cover"
-                      className="w-32 h-32 sm:w-48 sm:h-48 object-cover shadow-lg"
+                      className="w-48 h-48 sm:w-64 sm:h-64 object-cover shadow-lg"
                     />
                   </motion.div>
                 </div>

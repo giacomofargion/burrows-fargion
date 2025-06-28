@@ -1,6 +1,7 @@
 export interface Score {
   id: string
   title: string
+  header: string
   content: string
   images: string[]
   pdfUrl?: string
@@ -10,15 +11,14 @@ export const scores: Score[] = [
   {
     id: "hands-1995",
     title: "Hands, 1995",
+    header: "Hands (1995, 4.5 minutes)",
     content:
 `
 
 Film maker: Adam Roberts
 Choreographer and performer: Jonathan Burrows
 Composer: Matteo Fargion
-
 Design: Teresa MacCann
-
 Lighting: Jack Hazan
 
 Hands was made in 1995 as part of a season of short dance films for the Arts Council/BBC.
@@ -49,6 +49,7 @@ Fargion's small drawing of a hand also became the cover image for Burrows' A Cho
   {
     id: "both-sitting-duet-2002",
     title: "Both Sitting Duet, 2002",
+    header: "Both Sitting Duet (2002, 35 minutes)",
     content:
 `
 
@@ -76,6 +77,7 @@ In addition to the formal means of the structure, the performance is also mediat
   {
     id: "quiet-dance-2006",
     title: "The Quiet Dance, 2006",
+    header: "The Quiet Dance (2006, 20 minutes)",
     content:
      `
 
@@ -96,6 +98,7 @@ Created and performed by Jonathan Burrows and Matteo Fargion.
   {
     id: "speaking-dance-2006",
     title: "Speaking Dance, 2006",
+    header: "Speaking Dance (2006, 45 minutes)",
     content:
       `Created and performed by Jonathan Burrows and Matteo Fargion.
 
@@ -155,6 +158,7 @@ Score 4 also shows, on the right hand page, part of a set of descriptions by Rud
   {
     id: "cheap-lecture-2009",
     title: "Cheap Lecture, 2009",
+    header: "Cheap Lecture (2009, 30 minutes)",
     content:
       `Created and performed by Jonathan Burrows and Matteo Fargion.
  
@@ -182,6 +186,7 @@ John Cage, 'Lecture On Nothing', from 'Silence', Marion Boyars Publishers Ltd, (
   {
     id: "the-cow-piece-2009",
     title: "The Cow Piece, 2009",
+    header: "The Cow Piece (2009, 30 minutes)",
     content:
       `Created and performed by Jonathan Burrows and Matteo Fargion.
 
@@ -211,6 +216,7 @@ Each page has a score for a different material, and each score is written differ
   {
     id: "body-not-fit-for-purpose-2014",
     title: "Body Not Fit for Purpose, 2014",
+    header: "Body Not Fit for Purpose (2014, 30 minutes)",
     content:
       `Body Not Fit For Purpose is a duet which takes place sat at a table, with Burrows making a series of gestural solos and Fargion playing Mandolin. Each section is preceded by an overtly political title which has no direct connection to what we see and hear. The dancing body is revealed as 'not fit for purpose', but at the same time both movement and music appears to absorb and amplify the meanings inherent in the titles we hear.
 
@@ -233,6 +239,7 @@ Created and performed by Jonathan Burrows and Matteo Fargion.
   {
     id: "let-us-stop-2019",
     title: "Let Us Stop, 2019",
+    header: "Let Us Stop (2019, 17 minutes)",
     content:
       `Let us stop this mad rush towards the end was a commission for the London Festival of Contemporary Music at the Ambika Space London, directed and conceived by Burrows&Fargion, with music composed by Matteo Fargion, dance by Claire Godsmark, singin and piano by Francesca Fargion and conducted by Jack Sheen with the London Contemporary Music Festival orchestra.
 
@@ -244,6 +251,7 @@ The performance took place in a large industrial space, previously used a testin
 
 The dance was a structured improvisation choreographed by Godsmark, using a looping form suggested by Burrows. You will see from the structural dance score shared here, that the dance moved forwards from material A to material I, but with a device to make it flip back constantly to a previous material. Each material lasted the length of one crossing of the space, and the slow progression and looping back of the materials was punctuated by either walking, running or lying. The idea was to create a sense that the dancer was tumbling forwards, but at the same time pausing occasionally to recall past materials. The second dance score shows the names of each of Godsmark's materials, A to I, showing how a poetic use of language in the score underpinned the fierce expressiveness of her performance.
 
+The performance was filmed by Adam Roberts, and the film is available to watch here: https://www.youtube.com/watch?v=00000000000
 ​
 
 The music consisted of a short song with piano accompaniment repeated 33 times, including a variation which occured 5 times. Each member of the orchestra was provided with the score of the song plus an additional form scheme, which denoted which instrumental section joined in at specific repetitions. They were free to simply play the melody, embellish it, or pick out notes from the piano accompaniment, always supporting the song and never going against it. The conductor's only job was to cue each group of instruments in and out according to the predetermined structure. The result was a gradual build up of volume and colour until two thirds in, when the instruments dropped out and everybody sang, only to build again in a huge crescendo until the end.
@@ -261,6 +269,7 @@ The performance played with the tension between constructed loops and improvised
   {
     id: "rewriting-2021",
     title: "Rewriting, 2021",
+    header: "Rewriting (2021, 30 minutes)",
     content:
       `Rewriting is a table performance with 108 cards, each of which has a question or observation written on it. All of these short texts are quotations drawn from Burrows' A Choreographer's Handbook. The cards are manipulated in a series of ever more complex choreographies, with occasional pauses to read out what's written on a card. At the same time there is a memorised talk, which follows its own rhythm, but finds points of connection with the movement. And finally there is an undertow of music played by Matteo Fargion on a Casio keyboard, which supports the movement and allows the words to occasionally burst into song. The memorised talk begins by questioning what's written on the cards, but constantly digresses into other thoughts and possibilities. In this sense the the performance is about watching somebody attempt to think, whilst becoming overwhelmed by materials and ideas.
 
