@@ -4,6 +4,9 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'Burrows&Fargion',
   description: 'Official website of choreographer Jonathan Burrows and composer Matteo Fargion.',
+  icons: {
+    icon: '/favicon.ico',
+  },
 }
 
 export default function RootLayout({
