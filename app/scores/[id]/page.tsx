@@ -92,7 +92,7 @@ export default function ScorePage({ params }: { params: { id: string } }) {
                   {score.images.map((image, index) => (
                     <motion.div
                       key={index}
-                      className="w-[400px] h-[400px] overflow-hidden rounded shadow-md cursor-pointer group mx-auto bg-gray-50"
+                      className="w-full max-w-xs sm:max-w-sm aspect-square overflow-hidden rounded shadow-md cursor-pointer group mx-auto bg-gray-50"
                       initial={{ opacity: 0, scale: 0.9 }}
                       animate={{ opacity: 1, scale: 1 }}
                       transition={{ duration: 0.4, delay: 0.4 + index * 0.1 }}

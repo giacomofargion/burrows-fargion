@@ -71,7 +71,7 @@ export default function HomePage() {
                 className="w-full max-w-3xl mx-auto relative h-64 sm:h-80 lg:h-96 overflow-hidden  group"
                 initial={{ opacity: 0, scale: 0.95 }}
                 animate={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.7, delay: 0.6 }}
+                transition={{ duration: 0.8, delay: 0.6 }}
                 onMouseEnter={() => setIsHovered(true)}
                 onMouseLeave={() => setIsHovered(false)}
               >
@@ -84,7 +84,7 @@ export default function HomePage() {
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     exit={{ opacity: 0 }}
-                    transition={{ duration: 2.5, ease: "easeInOut" }}
+                    transition={{ duration: 3, ease: "easeInOut" }}
                   />
                 </AnimatePresence>
 

@@ -50,8 +50,7 @@ export default function MobileNavigation() {
               className="fixed top-0 right-0 h-full w-80 bg-white shadow-lg z-50 overflow-y-auto"
             >
               <div className="p-6">
-                <div className="flex justify-between items-center mb-8">
-                  <h2 className="text-lg font-medium">Menu</h2>
+                <div className="flex justify-end items-center mb-8">
                   <button onClick={closeMenu} className="p-1">
                     <X size={20} />
                   </button>
@@ -67,7 +66,7 @@ export default function MobileNavigation() {
                   </Link>
 
                   <a
-                    href="https://vimeo.com/showcase/burrowsfargionn"
+                    href="https://vimeo.com/showcase/burrowsfargion"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block text-sm hover:opacity-60 transition-opacity duration-200"
