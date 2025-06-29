@@ -67,7 +67,7 @@ export default function MobileNavigation() {
                   </Link>
 
                   <a
-                    href="https://vimeo.com/burrowsfargion"
+                    href="https://vimeo.com/showcase/burrowsfargionn"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block text-sm hover:opacity-60 transition-opacity duration-200"

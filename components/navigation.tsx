@@ -18,7 +18,7 @@ export default function Navigation() {
           HOME
         </Link>
         <a
-          href="https://vimeo.com/burrowsfargion"
+          href="https://vimeo.com/showcase/burrowsfargion"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:opacity-60 transition-opacity duration-200"
