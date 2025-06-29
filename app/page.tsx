@@ -42,6 +42,13 @@ export default function HomePage() {
     return () => clearInterval(interval)
   }, [images.length])
 
+  useEffect(() => {
+    // Preload the next image in the carousel
+    const nextIndex = (currentImageIndex + 1) % images.length;
+    const img = new window.Image();
+    img.src = images[nextIndex].src;
+  }, [currentImageIndex, images]);
+
   const goToPrevious = () => {
     setCurrentImageIndex((prevIndex) => (prevIndex === 0 ? images.length - 1 : prevIndex - 1))
   }
