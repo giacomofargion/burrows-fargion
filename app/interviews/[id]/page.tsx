@@ -52,7 +52,7 @@ export default function InterviewPage({ params }: { params: { id: string } }) {
                 {interview.header}
               </motion.h2>
               <motion.div
-                className="text-sm leading-relaxed whitespace-pre-line"
+                className="text-sm sm:text-base leading-relaxed whitespace-pre-line"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.4 }}

@@ -17,7 +17,7 @@ export default function DatesPage() {
           <PageTransition>
             <div className="space-y-6 sm:space-y-8">
               <div>
-                <h2 className="text-base sm:text-lg font-medium mb-4 sm:mb-6 border-b border-gray-300 pb-2">
+                <h2 className="text-base sm:text-lg font-medium mb-8 sm:mb-12 border-b border-gray-300 pb-2">
                   Performances and Teaching
                 </h2>
               </div>
