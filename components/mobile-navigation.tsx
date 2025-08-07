@@ -26,7 +26,7 @@ export default function MobileNavigation() {
     <div className="md:hidden">
       <button
         onClick={toggleMenu}
-        className="p-2 text-gray-700 hover:opacity-60 transition-opacity"
+        className="fixed top-4 right-4 z-50 p-2 text-gray-700 hover:opacity-60 transition-opacity bg-white rounded-md shadow-md"
         aria-label="Toggle menu"
       >
         {isOpen ? <X size={24} /> : <Menu size={24} />}
@@ -66,7 +66,7 @@ export default function MobileNavigation() {
                   </Link>
 
                   <a
-                    href="https://vimeo.com/showcase/burrowsfargion"
+                    href="https://vimeo.com/burrowsfargion"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block text-sm hover:opacity-60 transition-opacity duration-200"
