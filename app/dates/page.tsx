@@ -31,6 +31,14 @@ export default function DatesPage() {
                 <h3 className="text-sm sm:text-base font-medium mb-3 sm:mb-4 border-b border-gray-300 pb-1">2026</h3>
                 <div className="space-y-4 sm:space-y-6 text-xs sm:text-sm">
                   <div>
+                    <p className="mb-1 sm:mb-2 font-medium">14th-15th March</p>
+                    <p>MF Premiere of <i>The Garden of Eden</i> (working title) 3rd part of the Purgatorio opera trilogy, (Spreafico/Eckly) Borealis Festival, Bergen, Norway</p>
+                  </div>
+                  <div>
+                    <p className="mb-1 sm:mb-2 font-medium">19th-13th February</p>
+                    <p>MF Workshop, mentoring and new piece for Locating Students, SEAD, Salzburg, Austria</p>
+                  </div>
+                  <div>
                     <p className="mb-1 sm:mb-2 font-medium">12th-16th January</p>
                     <p>JB Workshop at SEAD, Salzburg, Austria</p>
                   </div>
@@ -50,20 +58,50 @@ export default function DatesPage() {
                 <h3 className="text-sm sm:text-base font-medium mb-3 sm:mb-4 border-b border-gray-300 pb-1">2025</h3>
                 <div className="space-y-4 sm:space-y-6 text-xs sm:text-sm">
                   <div>
+                    <p className="mb-1 sm:mb-2 font-medium">2nd-3rd December</p>
+                    <p>MF Die Wellen, (InOperabilities), Gare du Nord, Basel, Switzerland </p>
+                  </div>
+                  <div>
                     <p className="mb-1 sm:mb-2 font-medium">20th November</p>
-                    <p>B&F with Quatuor Bozzini, Any Table Any Room, Rainy Days 25 Festival, Luxembourg</p>
+                    <p>B&F with Quatuor Bozzini, <i>Any Table Any Room</i>, Rainy Days 25 Festival, Luxembourg</p>
+                  </div>
+                  <div>
+                    <p className="mb-1 sm:mb-2 font-medium">14th-15th November</p>
+                    <p>MF Premiere of <i>Mario and Raul</i>, with Spreafico/Eckly, Meteor Festival, Bergen, Norway</p>
+                  </div>
+                  <div>
+                    <p className="mb-1 sm:mb-2 font-medium">29th October-3rd November</p>
+                    <p>MF Workshop, Anghiari Dance Hub, Anghiari, Italy</p>
                   </div>
                   <div>
                     <p className="mb-1 sm:mb-2 font-medium">27th, 28th October</p>
                     <p>JB Masters workshop at Trinity Laban, London, UK</p>
                   </div>
                   <div>
+                    <p className="mb-1 sm:mb-2 font-medium">20th-21st October</p>
+                    <p>MF <i>Durante and the Bad Loves</i>, with <i>Spreafico/Eckly</i>, Rasi Theatre, Ravenna, Italy</p>
+                  </div>
+                  <div>
                     <p className="mb-1 sm:mb-2 font-medium">13th-17th October</p>
-                    <p>JB Workshop The felt sense of making, for MAD Board Mixed Abled Dance & Performance, Tanzquartier, Vienna</p>
+                    <p>JB Workshop <i>The felt sense of making</i>, for MAD Board Mixed Abled Dance & Performance, Tanzquartier, Vienna</p>
                   </div>
                   <div>
                     <p className="mb-1 sm:mb-2 font-medium">27th September</p>
                     <p>JB Scan Tester Fan Club, traditional English folk music performance, East Anglian Traditional Music Day, Stowmarket, UK</p>
+                  </div>
+                  <div>
+                    <p className="mb-1 sm:mb-2 font-medium">13th August</p>
+                    <p>MF <i>The Solo Piece</i>, Tanečno Festival, Námestovo, Slovakia
+                    </p>
+                  </div>
+                  <div>
+                    <p className="mb-1 sm:mb-2 font-medium">11th-13th August</p>
+                    <p>MF Workshop, Tanečno Festival, Námestovo, Slovakia
+                    </p>
+                  </div>
+                  <div>
+                    <p className="mb-1 sm:mb-2 font-medium">8th-9th August</p>
+                    <p>MF Performances of <i>Die Wellen</i>, (InOperabilities), Radial System, Berlin, Germany</p>
                   </div>
                   <div>
                     <p className="mb-1 sm:mb-2 font-medium">1st-8th August</p>
@@ -75,7 +113,12 @@ export default function DatesPage() {
                   </div>
                   <div>
                     <p className="mb-1 sm:mb-2 font-medium">26th, 27th July</p>
-                    <p>JB Workshop Questioning Choreography, Impulstanz, Vienna, Austria</p>
+                    <p>JB Workshop <i>Questioning Choreography</i>, Impulstanz, Vienna, Austria</p>
+                  </div>
+                  <div>
+                    <p className="mb-1 sm:mb-2 font-medium">14th-18th July</p>
+                    <p>MF Impulstanz workshops (<i>The Choir Piece & Crossing the Stage</i>)
+                    Vienna, Austria</p>
                   </div>
                   <div>
                     <p className="mb-1 sm:mb-2 font-medium">7th-18th July</p>
@@ -83,7 +126,7 @@ export default function DatesPage() {
                   </div>
                   <div>
                     <p className="mb-1 sm:mb-2 font-medium">22nd June</p>
-                    <p>B&F The Unison Piece, at interdisciplinary conference Composition Interference Transposition, HMDK Stuttgart, Germany</p>
+                    <p>B&F <i>The Unison Piece</i>, at interdisciplinary conference Composition Interference Transposition, HMDK Stuttgart, Germany</p>
                   </div>
                   <div>
                     <p className="mb-1 sm:mb-2 font-medium">19th, 20th and 23rd, 24th June</p>
@@ -107,23 +150,23 @@ export default function DatesPage() {
                   </div>
                   <div>
                     <p className="mb-1 sm:mb-2 font-medium">17th May</p>
-                    <p>B&F Rewriting and The Unison Piece, Dance Week Festival, Zagreb, Croatia</p>
+                    <p>B&F <i>Rewriting</i> and <i>The Unison Piece</i>, Dance Week Festival, Zagreb, Croatia</p>
                   </div>
                   <div>
                     <p className="mb-1 sm:mb-2 font-medium">13th-16th May</p>
-                    <p>Premiere of The Ballad of Bøler Samvirkelag, with the Bøler Samvirkelag women's collective, Dansenshus, Oslo, Norway</p>
+                    <p>Premiere of <i>The Ballad of Bøler Samvirkelag</i>, with the Bøler Samvirkelag women's collective, Dansenshus, Oslo, Norway</p>
                   </div>
                   <div>
                     <p className="mb-1 sm:mb-2 font-medium">10th May</p>
-                    <p>B&F Premiere of new duet The Unison Piece at Norma T, Oslo, Norway</p>
+                    <p>B&F Premiere of new duet <i>The Unison Piece</i> at Norma T, Oslo, Norway</p>
                   </div>
                   <div>
                     <p className="mb-1 sm:mb-2 font-medium">6th May</p>
-                    <p>JB Rethinking Choreography, public talk at Høyskolen for Dansekunst, Oslo, Norway</p>
+                    <p>JB <i>Rethinking Choreography</i>, public talk at Høyskolen for Dansekunst, Oslo, Norway</p>
                   </div>
                   <div>
                     <p className="mb-1 sm:mb-2 font-medium">29th April</p>
-                    <p>JB Online booklaunch talk A Choreographer's Handbook Croatian translation, Acadamy of Dramatic Art Zagreb, Croatia</p>
+                    <p>JB Online book launch talk A Choreographer's Handbook Croatian translation, Acadamy of Dramatic Art Zagreb, Croatia</p>
                   </div>
                   <div>
                     <p className="mb-1 sm:mb-2 font-medium">11th, 12th March</p>
@@ -138,8 +181,17 @@ export default function DatesPage() {
                     <p>JB Scan Tester Fan Club traditional English folk music performance, Lewes Folk Club, UK</p>
                   </div>
                   <div>
+                    <p className="mb-1 sm:mb-2 font-medium">27th February</p>
+                    <p>MF premiere of <i>Woytek</i> by Mark Vegh, with live music, Old Fire Station Theatre, Oxford, UK</p>
+                  </div>
+                  <div>
                     <p className="mb-1 sm:mb-2 font-medium">3rd-7th February</p>
                     <p>JB Masters workshop at Home Of Performance Practices, ArtEZ, Arnhem, Netherlands</p>
+                  </div>
+                  <div>
+                    <p className="mb-1 sm:mb-2 font-medium">27th January-21st February</p>
+                    <p>MF Workshops, mentoring and new piece for Locating students (<i>The Choir Piece</i>) SEAD, Salzburg, Austria
+                    </p>
                   </div>
                   <div>
                     <p className="mb-1 sm:mb-2 font-medium">25th, 26th January</p>
@@ -182,12 +234,21 @@ export default function DatesPage() {
                     <p>JB Scan Tester Fan Club, traditional English folk music performance, The Swan Falmer, UK</p>
                   </div>
                   <div>
+                    <p className="mb-1 sm:mb-2 font-medium">21st-24th November</p>
+                    <p>MF Premiere and 3 shows of <i>Die Wellen</i>, a multi sensory performance directed by Leo Hoffman and Benjamin Van Bebber/ InOperabilities, Kampnagel, Hamburg, Germany.
+                    </p>
+                  </div>
+                  <div>
                     <p className="mb-1 sm:mb-2 font-medium">21st, 22nd November</p>
                     <p>JB Masters workshop at Trinity Laban, London, UK</p>
                   </div>
                   <div>
                     <p className="mb-1 sm:mb-2 font-medium">14th-18th October</p>
                     <p>JB Masters workshop La Cambre Brussels, Belgium</p>
+                  </div>
+                  <div>
+                    <p className="mb-1 sm:mb-2 font-medium">14th-18th October</p>
+                    <p>MF Workshop PARTS, Brussels, Belgium.</p>
                   </div>
                   <div>
                     <p className="mb-1 sm:mb-2 font-medium">29th September</p>
@@ -198,8 +259,16 @@ export default function DatesPage() {
                     <p>JB Workshop at OBRT NET Festival Šibenik, Croatia</p>
                   </div>
                   <div>
+                    <p className="mb-1 sm:mb-2 font-medium">23rd-27th September</p>
+                    <p>MF Workshop Anghiari Dance Hub, Anghiary, Italy</p>
+                  </div>
+                  <div>
                     <p className="mb-1 sm:mb-2 font-medium">23rd September</p>
                     <p>JB Scan Tester Fan Club, traditional English folk music performance, Croydon Folk Club, UK</p>
+                  </div>
+                  <div>
+                    <p className="mb-1 sm:mb-2 font-medium">5th September</p>
+                    <p>MF Premiere of <i>Líkaminn er Skál</i> (<i>My Body is a Bowl</i>) in collaboration with 10 Fingers/Helga Arnalds, Tjarnabíó Theatre, Reykjavik, Iceland</p>
                   </div>
                   <div>
                     <p className="mb-1 sm:mb-2 font-medium">18th September</p>
@@ -214,6 +283,10 @@ export default function DatesPage() {
                     <p>JB My Dance History, public talk Lisbon Public Library, Lisbon, Portugal</p>
                   </div>
                   <div>
+                    <p className="mb-1 sm:mb-2 font-medium">12th-23rd February</p>
+                    <p>MF Workshop for Masters Programme at the University of the Arts, Reykjavik, Iceland</p>
+                  </div>
+                  <div>
                     <p className="mb-1 sm:mb-2 font-medium">13th–25th May</p>
                     <p>JB Mentoring project BRÜCKEREI #2, for Tanzhaus Zurich and HF ZUB, Zurich, Switzerland</p>
                   </div>
@@ -222,7 +295,7 @@ export default function DatesPage() {
                     <p>JB Workshop Forum Dança, Lisbon, Portugal</p>
                   </div>
                   <div>
-                    <p className="mb-1 sm:mb-2 font-medium">12th–16th February</p>
+                    <p className="mb-1 sm:mb-2 font-medium">12th–23rd February</p>
                     <p>MF Workshop at Icelandic University of the Arts Masters Programme, Reykjavik, Iceland</p>
                   </div>
                   <div>
@@ -231,11 +304,12 @@ export default function DatesPage() {
                   </div>
                   <div>
                     <p className="mb-1 sm:mb-2 font-medium">9th January</p>
-                    <p>JB Rethinking Choreography, public talk Playground Studio Munich, Germany</p>
+                    <p>JB <i>Rethinking Choreography</i>, public talk Playground Studio Munich, Germany</p>
                   </div>
                   <div>
                     <p className="mb-1 sm:mb-2 font-medium">8th January–2nd February</p>
-                    <p>MF Composition workshop and new piece, SEAD, Salzburg, Austria</p>
+                    <p>MF Workshops, mentoring and new piece for Locating students (<i>The piece that starts on a boat</i>)  SEAD, Salzburg, Austria
+                    </p>
                   </div>
                 </div>
               </motion.div>
